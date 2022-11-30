@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid p-0 ctnmain">
-    <div class="divheader">
+    <div class="divheader py-2">
       <img src="../assets/spotify-logo-png-7053.png" alt="spotify-logo" class="logo">
     </div>
   </div>
@@ -16,7 +16,7 @@ export default {
 $main_color_1: #2E3A46;
 $main_color_2: #1E2D3B;
 .ctnmain{
-  height: 5vh;
+  height: 100%;
 }
 .divheader{
   background-color: $main_color_1;

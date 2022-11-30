@@ -1,7 +1,9 @@
 <template>
   <div class="maincontainer text-light">
     <div class="discs col-8 m-auto row">
-      <div  class="text-center card p-3 mt-4 ms-4 col-2" v-for="char in characters" :key="char.id">
+      <div  class="text-center card rounded-0 p-3 mt-4 ms-4 col-2"
+      v-for="char in characters"
+      :key="char.id">
         <img :src="char.poster" alt="char.title" class="mb-2">
         <h6 class="text-uppercase font-weight-bold">{{char.title}}</h6>
         <div class="author"><small>{{char.author}}</small></div>
@@ -36,7 +38,7 @@ $main_color_1: #2E3A46;
 $main_color_2: #1E2D3B;
 .maincontainer{
   background-color: $main_color_2 ;
-  height: 85vh;
+  height: 95vh;
 }
 
 .card{
